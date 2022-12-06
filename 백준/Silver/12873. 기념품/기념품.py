@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline
+
 N = int(input())
 arr = [i for i in range(1, N + 1)]
 now = [0, 1]     # 현재위치, 외치는 카운팅
